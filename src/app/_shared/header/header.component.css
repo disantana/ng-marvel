@@ -1,0 +1,13 @@
+.header{
+  display: flex;
+  height: 80px;
+  background-color: crimson;
+}
+
+.logo-text{
+  display: flex;
+  align-self: center;
+  font-size: 28px;
+  padding-left: 20px;
+  color: white;
+}
