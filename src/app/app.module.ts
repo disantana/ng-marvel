@@ -7,13 +7,15 @@ import { HeaderComponent } from './_shared/header/header.component';
 import { FooterComponent } from './_shared/footer/footer.component';
 import { CharactersComponent } from './characters/characters.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ComicsComponent } from './comics/comics.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    CharactersComponent
+    CharactersComponent,
+    ComicsComponent
   ],
   imports: [
     BrowserModule,
