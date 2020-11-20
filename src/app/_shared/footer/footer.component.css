@@ -1,0 +1,12 @@
+.footer{
+  display: flex;
+  height: 180px;
+  background-color: gainsboro;
+  justify-content: center;
+}
+
+.footer-text{
+  display: flex;
+  align-self: center;
+}
+
