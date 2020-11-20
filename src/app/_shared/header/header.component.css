@@ -10,4 +10,21 @@
   font-size: 28px;
   padding-left: 20px;
   color: white;
+  margin-top: 10px;
+}
+
+.navigation{
+  display: flex;
+  align-self: center;
+  padding-left: 300px;
+}
+
+.mlink{
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 20px;
+
+}
+.logo-link{
+  height: 80px;
 }
