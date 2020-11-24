@@ -28,3 +28,22 @@
 .logo-link{
   height: 80px;
 }
+
+#main-banner{
+  display: flex;
+  height: 450px;
+  background-color: black;
+  justify-content: center;
+}
+
+#banner-text{
+  display: flex;
+  font-size: 106px;
+  font-family: 'Goldman', cursive;
+  align-self: center;
+  align-content: center;
+  background-color: white;
+  padding: 100px 30px 100px 30px;
+
+
+}
