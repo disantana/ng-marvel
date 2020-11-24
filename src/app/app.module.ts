@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ComicsComponent } from './comics/comics.component';
 import { MarvelCardsComponent } from './_shared/marvel-cards/marvel-cards.component';
 import {MatCardModule} from '@angular/material/card';
+import { MoviesComponent } from './movies/movies.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {MatCardModule} from '@angular/material/card';
     FooterComponent,
     CharactersComponent,
     ComicsComponent,
-    MarvelCardsComponent
+    MarvelCardsComponent,
+    MoviesComponent
   ],
   imports: [
     BrowserModule,
