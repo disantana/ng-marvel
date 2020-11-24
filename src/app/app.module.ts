@@ -8,6 +8,8 @@ import { FooterComponent } from './_shared/footer/footer.component';
 import { CharactersComponent } from './characters/characters.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ComicsComponent } from './comics/comics.component';
+import { MarvelCardsComponent } from './_shared/marvel-cards/marvel-cards.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { ComicsComponent } from './comics/comics.component';
     HeaderComponent,
     FooterComponent,
     CharactersComponent,
-    ComicsComponent
+    ComicsComponent,
+    MarvelCardsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
