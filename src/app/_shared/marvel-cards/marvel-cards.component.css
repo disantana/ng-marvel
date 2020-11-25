@@ -1,7 +1,8 @@
 #mat-card{
   /*display: flex;*/
   margin: 10px 20px 20px 20px;
-  max-width: 500px;
+  max-width: 345px;
+  min-height: 310px;
 }
 
 

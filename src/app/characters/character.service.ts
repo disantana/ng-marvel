@@ -30,6 +30,12 @@ export class CharacterService {
         nickname: 'FALCONZ',
         card_image: 'https://terrigen-cdn-dev.marvel.com/content/prod/1x/014fal_ons_mas_dsk_01_2.jpg',
         description: 'When Captain America asked Air Force Veteran Sam Wilson for help, Wilson immediately agreed. He donned the flight suit he’d used in combat to become the Falcon, setting him on a path towards becoming an Avenger.'
+      }, {
+        id: 4,
+        name: 'FALCON',
+        nickname: 'FALCON - CLONE',
+        card_image: 'https://terrigen-cdn-dev.marvel.com/content/prod/1x/014fal_ons_mas_dsk_01_2.jpg',
+        description: 'When Captain America asked Air Force Veteran Sam Wilson for help, Wilson immediately agreed. He donned the flight suit he’d used in combat to become the Falcon, setting him on a path towards becoming an Avenger.'
       }];
   }
 }
