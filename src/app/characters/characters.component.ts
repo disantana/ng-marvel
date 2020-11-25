@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-characters',
@@ -7,9 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CharactersComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() {
   }
+
+  ngOnInit() {
+
+  }
+
+  characters = [
+    {
+      id: 1,
+      name: 'Hulk',
+      description: 'Green Man'
+    },
+    {
+      id: 2,
+      name: 'Batman',
+      description: 'Black Man'
+    }];
 
 }
