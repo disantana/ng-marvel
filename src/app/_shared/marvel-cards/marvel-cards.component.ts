@@ -6,7 +6,7 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./marvel-cards.component.css']
 })
 export class MarvelCardsComponent implements OnInit {
-  @Input() characters;
+  @Input() data;
 
   constructor() { }
 
